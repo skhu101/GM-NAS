@@ -5,7 +5,7 @@
     * tensorboard == 2.0.1
     * gpustat
 
-* Some codes are borrowed from **DARTS-PT** ([https://github.com/ruocwang/darts-pt]) 
+* Some codes are borrowed from [**DARTS-PT**](https://github.com/ruocwang/darts-pt)
 
 
 
