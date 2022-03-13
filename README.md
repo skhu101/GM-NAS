@@ -1,10 +1,10 @@
 # GM-NAS
 
-This repository contains the PyTorch implementation of the paper **Generalizing Few-Shot NAS with Gradient Matching**, ICLR 2022.
+This repository contains the PyTorch implementation of the paper:<br/>
+[**Generalizing Few-Shot NAS with Gradient Matching**](https://openreview.net/pdf?id=_jMtny3sMKU) in *ICLR 2022*.
 
-By Shoukang Hu*, Ruochen Wang*, Lanqing Hong, Zhenguo Li, Cho-Jui Hsieh, Jiashi Feng.
+By Shoukang Hu*, Ruochen Wang*, Lanqing Hong, Zhenguo Li, Cho-Jui Hsieh, and Jiashi Feng.<br/><br/>
 
-[Paper-arxiv](https://openreview.net/pdf?id=_jMtny3sMKU)
 
 <p align="left">
     <img src="img/GM_NAS.png" height="300"/>
@@ -26,10 +26,10 @@ By Shoukang Hu*, Ruochen Wang*, Lanqing Hong, Zhenguo Li, Cho-Jui Hsieh, Jiashi 
 ### Citation
 If you find our codes or trained models useful in your research, please consider to star our repo and cite our paper:
 
-    @inproceedings{hu2021generalizing,
+    @inproceedings{hu2022generalizing,
       title={Generalizing Few-Shot NAS with Gradient Matching},
       author={Hu, Shoukang and Wang, Ruochen and Lanqing, HONG and Li, Zhenguo and Hsieh, Cho-Jui and Feng, Jiashi},
       booktitle={International Conference on Learning Representations},
-      year={2021}
+      year={2022}
     }
 
