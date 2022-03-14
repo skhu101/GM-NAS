@@ -4,7 +4,7 @@
     * Pytorch == 1.0
     * ImageNet Dataset
 
-* Some codes are borrowed from **ProxylessNAS** (https://github.com/mit-han-lab/proxylessnas) 
+* Some codes are borrowed from [**ProxylessNAS**] (https://github.com/mit-han-lab/proxylessnas) 
 
 
 ### Search
