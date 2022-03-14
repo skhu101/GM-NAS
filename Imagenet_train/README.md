@@ -4,7 +4,7 @@
     * Pytorch >= 1.5
     * ImageNet Dataset
 
-* Some codes are borrowed from **PyTorch Image Models** ([https://github.com/rwightman/pytorch-image-models]) 
+* Some codes are borrowed from [**PyTorch Image Models**](https://github.com/rwightman/pytorch-image-models) 
 
 
 ## GM + ProxylessNAS
