@@ -3,7 +3,7 @@
     * Python >= 3.7
     * PyTorch == 1.0
 
-* Some codes are borrowed from **once-for-all** ([https://github.com/mit-han-lab/once-for-all]) 
+* Some codes are borrowed from [**once-for-all**](https://github.com/mit-han-lab/once-for-all) 
 
 
 ### GM + OFA supernet partition
