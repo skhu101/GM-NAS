@@ -11,13 +11,13 @@ By Shoukang Hu*, Ruochen Wang*, Lanqing Hong, Zhenguo Li, Cho-Jui Hsieh, and Jia
 </p>
 
 
-For experiments on **NASBench-201 and DARTS space**, please refer to WS-GM/README.md
+For experiments on **NASBench-201 and DARTS space**, please refer to **WS-GM/README.md**
 
-For experiments on **ProxylessNAS space**, please refer to ProxylessNAS-GM/README.md
+For experiments on **ProxylessNAS space**, please refer to **ProxylessNAS-GM/README.md**
 
-For experiments on **OFA space**, please refer to once-for-all-GM/README.md
+For experiments on **OFA space**, please refer to **once-for-all-GM/README.md**
 
-For **evaluating searched architectures** from ProxylessNAS and OFA space, please refer to Imagenet_train/README.md
+For **evaluating searched architectures** from ProxylessNAS and OFA space, please refer to **Imagenet_train/README.md**
 
 
 
