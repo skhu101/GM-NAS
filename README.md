@@ -21,6 +21,8 @@ For **evaluating searched architectures** from ProxylessNAS and OFA space, pleas
 
 
 
+### Patch Note (Oct 30, 2022)
+There has been a logging error in NB201's architecture selection phase that causes some confusion in reproducibility. We've updated the logging. For more details on the architecture selection method, please refer to Appendix C of the paper.
 
 
 ### Citation
