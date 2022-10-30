@@ -363,7 +363,8 @@ def main():
 
 
     #### architecture selection / projection
-    best_valid_acc, best_alpha = 0, None
+    ## note: as stated in the paper, we do not implement successive halving for 201 since one can simply query the database
+    logging.info("*"*10 + 'ARCHITECTURE SELECTION', "*"*10)
     for cur_model, cur_architect, _ in supernets:
         logging.info(cur_model.enc)
         if args.projection in ['darts', 'snas']:
@@ -373,19 +374,6 @@ def main():
             ret = rsws_project(train_queue, valid_queue, cur_model, cur_architect, criterion, cur_model.optimizer,
                                start_epoch, args, infer, query)
 
-        valid_acc, alpha, enc = ret
-        if valid_acc > best_valid_acc:
-            best_valid_acc = valid_acc
-            best_alpha = alpha
-            best_enc   = enc
-
-    # eval final model
-    logging.info('======================== FINAL ========================')
-    model = get_new_model().cuda() # get any model
-    model.set_encoding(best_enc)
-    model.set_arch_parameters([best_alpha]) # arch_parameters is a list
-    if not args.fast:
-        query(api, model.genotype(), logging)
     writer.close()
 
 
